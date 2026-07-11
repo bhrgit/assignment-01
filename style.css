@@ -1,7 +1,7 @@
 
 
 *{
-    padding 0;
+    padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
 }
@@ -101,7 +101,6 @@ h1{
     grid-template-columns: repeat(2, 1fr);
     background-color: #FFFFFF;
     gap: 30px;
-    border-color: #0D1B2A;
     padding: 10px 50px 10px 50px;
     margin: 0 100px 40px 100px;
      
@@ -111,9 +110,10 @@ h1{
 .speakers-card-container .speakers-card{
     text-align: left;
     margin: auto;
-    border: 10px;
-    border-color: #0D1B2A;
-    
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #E5E7EB;   
 
 
 }
@@ -136,7 +136,7 @@ h1{
     padding: 0 0 8px 24px;
 }
 .speakers-card img{
-    border-radius: 20px 20px 0 0;
+    border-radius: 15px 15px 0 0;
 
 
 }
@@ -167,20 +167,22 @@ h1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: #FFFFFF;
-    border: 10px;
-    border-color: aqua;
     align-items: center;
     justify-content: space-between;
     padding-top: 48px;
-    
+    gap: 24px;    
 }
-.price-container .price-card{
-      
+.price-container .price-card{      
     text-align: left;
     margin: auto;
-    outline: #575757;
-    /* width: 370px;
-    height: 444px; */
+    background-color: #F8F9FB;
+    width: 370px;
+    height: 444px;
+    border-style: solid;
+    border: 2px;
+    border-radius: 15px;
+    border-color: #E5E7EB;
+    padding: 32px;
 }
 .price-card h6{
     text-align: left;
@@ -209,12 +211,15 @@ h1{
     color: #1D4ED8;
     font-weight: bold;
     font-size: 16px;
-    background-color: #FFFFFF;
+    background-color: #F8F9FB;
     border-color: #1D4ED8;
     border-radius: 12px;
     width: 305px;
-
-
+    margin-top: 40px;
+}
+.price-card ul{
+    padding: 20px;
+    
 }
 .price-card ul li{
     text-decoration: none;
@@ -222,4 +227,16 @@ h1{
     padding-bottom: 10px;
     font-size: 14px;
     color: #333333;
+}
+
+.blue-btn-2{
+    padding: 12px 41px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 12px;
+    width: 305px;
+    margin-top: 40px;
 }
