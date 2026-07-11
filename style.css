@@ -18,6 +18,10 @@
 
 }
 
+.container{
+
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -83,5 +87,57 @@ h1{
     background-color: #1D4ED8;
     border: none;
     border-radius: 12px;
+
+}
+
+.speakers{
+    text-align: center;
+    font-size: 56px;
+    font-weight: bold;
+    margin: 80px;
+}
+.speakers-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #FFFFFF;
+    gap: 30px;
+    border-color: #0D1B2A;
+    padding: 10px 50px 10px 50px;
+    margin: 0 100px 40px 100px;
+    border-width: 10px;
+ 
+      
+
+}
+.speakers-card-container .speakers-card{
+    text-align: left;
+    margin: auto;
+    border: 10px;
+    border-color: #0D1B2A;
+    
+
+
+}
+.speakers-card h4{
+    font-size: 12px;
+    font-weight: 500;
+    color: #2563EB;
+    padding: 24px 0 8px 24px;
+}
+.speakers-card h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0D1B2A;
+    padding: 0 0 8px 24px;
+}
+.speakers-card p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #575757;
+    padding: 0 0 8px 24px;
+}
+.speakers-card img{
+    border-radius: 20px 20px 0 0;
+
 
 }
