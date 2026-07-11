@@ -31,7 +31,7 @@ nav{
     align-items: center; 
 }
 
-ul{
+nav ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
@@ -39,7 +39,7 @@ ul{
 
 }
 
-ul li a{
+nav ul li a{
         text-decoration: none;
         color: #575757;
         font-size: 16;
@@ -104,8 +104,7 @@ h1{
     border-color: #0D1B2A;
     padding: 10px 50px 10px 50px;
     margin: 0 100px 40px 100px;
-    border-width: 10px;
- 
+     
       
 
 }
@@ -140,4 +139,87 @@ h1{
     border-radius: 20px 20px 0 0;
 
 
+}
+
+
+.pricing-parent{
+    background-color: #FFFFFF;
+    margin: 100px;
+    padding: 95px;
+    
+}
+.pricing-parent h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin: auto;
+}
+.pricing-parent h5{
+    text-align: center;
+    font-size: 16px;
+    color: #575757;
+    font-weight: 300;
+    padding-bottom: 30px;
+    
+}
+.price-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #FFFFFF;
+    border: 10px;
+    border-color: aqua;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 48px;
+    
+}
+.price-container .price-card{
+      
+    text-align: left;
+    margin: auto;
+    outline: #575757;
+    /* width: 370px;
+    height: 444px; */
+}
+.price-card h6{
+    text-align: left;
+    font-size: 13px;
+    color: #888888;
+    font-weight: 600;
+    padding-bottom: 8px;
+
+}
+.price-card h3{
+    text-align: left;
+    font-size: 44px;
+    color: #0D1B2A;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.price-card p{
+    text-align: left;
+    font-size: 13px;
+    color: #888888;
+    font-weight: 300;
+    padding-bottom: 8px;
+
+}
+.white-btn{padding: 12px 41px;
+    color: #1D4ED8;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border-color: #1D4ED8;
+    border-radius: 12px;
+    width: 305px;
+
+
+}
+.price-card ul li{
+    text-decoration: none;
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #333333;
 }
