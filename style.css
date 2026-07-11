@@ -19,6 +19,8 @@
 }
 
 .container{
+    max-width: 1551px;
+    margin: auto;
 
 }
 
@@ -207,7 +209,8 @@ h1{
     padding-bottom: 8px;
 
 }
-.white-btn{padding: 12px 41px;
+.white-btn{
+    padding: 12px 41px;
     color: #1D4ED8;
     font-weight: bold;
     font-size: 16px;
@@ -239,4 +242,18 @@ h1{
     border-radius: 12px;
     width: 305px;
     margin-top: 40px;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    align-items: center;
+    padding: 10px 10px;
+    }
+.social-icon span{
+        font-size: 32px;
+        color: #1D4ED8;
+}
+.mini-logo{
+    font-size: 32px;
 }
