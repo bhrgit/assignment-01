@@ -1,0 +1,42 @@
+
+
+*{
+    padding 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* Common*/
+.blue-btn{
+    padding: 12px 41px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 12px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 115px;
+    margin: auto;
+    max-width: 1551px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+ul li a{
+        text-decoration: none;
+        color: #575757;
+        font-size: 16;
+}
